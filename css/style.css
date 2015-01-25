@@ -1,3 +1,5 @@
+/*CSS reset*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -41,3 +43,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* div and background help*/
+
+body {
+	background-color: LightGray;
+}
+div {
+	border: 1px solid Chocolate;
+}
+
+/* Full CSS*/
+
+.topNav {
+	background-color: #ffffff;
+}
+
+.topNav > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.button {
+	display: block;
+	height: 1.4em;
+	width: 8em;
+	background: #F15A29;
+	border-radius: 3px;
+	color: white;
+	text-align: center;
+	font-family: "Open Sans";
+	font-size: 1.2em;
+}
+
+a.button {
+	text-decoration: none;
+}
+
