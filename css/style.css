@@ -55,6 +55,10 @@ div {
 
 /* Full CSS*/
 
+.body {
+	font-family: 'Roboto', sans-serif;
+}
+
 .topNav {
 	background-color: #ffffff;
 }
@@ -63,6 +67,65 @@ div {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+}
+
+.banner > .content {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 10%;
+}
+.banner .content h1 {
+	font-size: 32px;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+.banner .content h3 {
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.banner .content h1, h3 {
+	letter-spacing: 0.03em;
+}
+
+.topNav .logo {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.topNav .links {
+	float: right;
+	margin-right: 10px;
+	margin-top: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.topNav .links li {
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.topNav .links > .active {
+	color: #4c5058;
+	font-weight: 600;
+}
+
+.topNav .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+
+.banner {
+	background-image: url('../images/first-background copy.jpg');
+	background-position: 0 bottom;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .button {
@@ -74,7 +137,14 @@ div {
 	color: white;
 	text-align: center;
 	font-family: "Open Sans";
-	font-size: 1.2em;
+	font-size: 16px;
+	margin: 0 auto;
+	margin-top: 25px;
+	padding-top: 6px;
+}
+
+.button:hover {
+	background: #A94E32;
 }
 
 a.button {
