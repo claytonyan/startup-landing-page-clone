@@ -47,10 +47,10 @@ table {
 /* div and background help*/
 
 body {
-	background-color: LightGray;
+	background-color: white;
 }
 div {
-	border: 1px solid Chocolate;
+	border: 1px solid transparent;
 }
 
 /* Full CSS*/
@@ -157,9 +157,9 @@ a.button {
 }
 
 .cases .content {
-	text-align: center;
 	font-family: 'Roboto', sans-serif;
 	background-color: #ffffff;
+	text-align: center;
 }
 
 
@@ -173,21 +173,50 @@ a.button {
 .icons li {
 	display: inline-block;
 	font-size: 24px;
-	margin-left: 15px;
+	margin: 0 auto;
 	margin-right: 15px;
+	margin-left: 15px;
+}
+
+#coffee {
+	left: 15px;
 }
 
 .icons h3 {
 	margin-top: 50px;
 }
 
+.social .content {
+	text-align: center;
+	font-family: 'Roboto';
+	margin-top: 100px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+hr {
+	border-top: .05rem solid #eaebec;
+	margin-top: 100px;
+	margin-bottom: 40px;
+
+}
+
 .social .socialIcons > li {
-	border-radius: 10px;
-	width: 2.5rem;
-	height: 2.5rem;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
 	display: inline-block;
 	margin: 1.25rem 5px;
 	border: 1px solid #eaebec;
-	padding: 0.625rem 0;
-	text-align: center;
+}
+
+.socialIcons {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 200px;
+}
+
+.socialIcons i {
+	margin-top: 35%;
+	color: lightblue;
 }
